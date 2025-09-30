@@ -8,6 +8,7 @@ public class MyClass {
 	//Some changes
 	public int getId()
 	{
+		// returning something
 		return id;
 	}
 	
