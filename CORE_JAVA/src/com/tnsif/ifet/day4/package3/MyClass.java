@@ -5,6 +5,7 @@ public class MyClass {
 	private static MyClass obj=new MyClass();
 	private int id;
 	
+	//Some changes
 	public int getId()
 	{
 		return id;
