@@ -7,10 +7,10 @@ import java.sql.SQLException;
 
 public class DBUtil {
 	private static Connection cn;
-	private static final String DB_DRIVER_CLASS="com.mysql.cj.jdbc.Driver";
-	private static final String DB_USERNAME="tnsif";
-	private static final String DB_PASSWORD="tnsif";
-	private static final String DB_URL ="jdbc:mysql://localhosts:3306/tnsif_practice";
+	private static final String DB_DRIVER_CLASS="driver.class.name";
+	private static final String DB_USERNAME="db_username";
+	private static final String DB_PASSWORD="db_password";
+	private static final String DB_URL ="db.url";
 	public static Connection getConnetion() {
 		try {
 			Class.forName(DB_DRIVER_CLASS);// to load database driver
